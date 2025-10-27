@@ -3,7 +3,7 @@ Team 08
 
 This is program measures similarities between short captions. The goal is to identify similar captions, which is the base for recommandation systems like the proposed project.
 
-At first I imported libraries like: *sentence_transformers* for embeddings, *torch* for tensor operations, **numpy* for numerical work, *re* for text cleaning, and *pandas* for displaying data neatly. A small helper function, *clean_caption()*, standardizes text by converting it to lowercase and removing URLs and special characters, ensuring clean input for the embedding model.
+At first I imported libraries like: *sentence_transformers* for embeddings, *torch* for tensor operations, *numpy* for numerical work, *re* for text cleaning, and *pandas* for displaying data neatly. A small helper function, *clean_caption()*, standardizes text by converting it to lowercase and removing URLs and special characters, ensuring clean input for the embedding model.
 
 Now various captions covering topics like cats, cooking, football etc. is given as input. After cleaning, each caption is passed through the SentenceTransformer model 'all-MiniLM-L6-v2', which then converts text into token id {numerical value} stored in dense vector embeddings.
 
