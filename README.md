@@ -1,5 +1,5 @@
 # Team-08
-Team 08
+Team 08 Task 03
 
 This is program measures similarities between short captions. The goal is to identify similar captions, which is the base for recommandation systems like the proposed project.
 
